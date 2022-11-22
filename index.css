@@ -1,0 +1,80 @@
+
+
+
+.dropdown{
+    position: relative;
+    display: block;
+
+}
+.dropdown-03{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 40px;
+    
+    padding: 12px 14px;
+    color: black;
+}
+.dropdown:hover .dropdown-03{
+    display: block;
+    
+}
+.pic{
+
+    
+    width: 300px;
+    height: 210px;
+    
+}
+
+.pic:hover{
+   
+    transform: scale(1.2);
+    
+}
+.slideshow-container {
+    max-width: 100px;
+    position: relative;
+    margin: auto;
+
+}
+.pic01{
+
+    
+    width: 200px;
+    height: -250px;
+    
+}
+
+.pic01:hover{
+   
+    transform: scale(1.2);
+}
+a:link {
+  text-decoration: none;
+
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+  text-decoration: lightcoral;
+  text-transform: uppercase;
+  
+
+
+}
+
+a:active {
+  text-decoration: underline;
+  border: 50px;
+}
+
